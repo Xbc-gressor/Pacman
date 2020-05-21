@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/001.png</file>
+        <file>res/BackButton.png</file>
+        <file>res/BackButtonSelected.png</file>
+        <file>res/BackButtonSound.wav</file>
+        <file>res/BoardNode.png</file>
+        <file>res/ConFlipSound.wav</file>
+        <file>res/ghost1.gif</file>
+        <file>res/ghost2.gif</file>
+        <file>res/ghost3.gif</file>
+        <file>res/MainScenebgGIF.gif</file>
+        <file>res/MainScenebgIMG.jpg</file>
+        <file>res/MainSceneIMG.jpg</file>
+        <file>res/rule.txt</file>
+        <file>res/sucessIMG.jpg</file>
+        <file>res/TapButtonSound.wav</file>
+    </qresource>
+</RCC>
