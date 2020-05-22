@@ -10,7 +10,7 @@ class myPushButton : public QPushButton
 public:
 
     //构造函数，参数1，正常路径，参数2，按下后显示路径
-    myPushButton(QString normalImg,QString pressImg ="");
+    myPushButton(QString normalImg, QString pressImg ="");
 
     //保存默认路径，按下后路径
     QString normalImgPath;

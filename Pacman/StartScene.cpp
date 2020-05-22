@@ -1,4 +1,5 @@
 #include "StartScene.h"
+#include "config.h"
 #include "ui_startscene.h"
 
 StartScene::StartScene(QWidget *parent)
@@ -7,10 +8,9 @@ StartScene::StartScene(QWidget *parent)
 {
     ui->setupUi(this);
 
-
     InitConnect();
 
-    this->setFixedSize(800, 600);
+    this->setFixedSize(HEIGHT, HEIGHT);
 
     startGameBtn->setParent(this);
     startGameBtn->setFixedSize(200, 80);

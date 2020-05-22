@@ -40,7 +40,7 @@ chooselevelscene::chooselevelscene(QWidget *parent) : QMainWindow(parent)
     });
 
     //选择关卡图标
-    for(int i=0;i<4;i++)
+    for(int i = 0; i<4; i++)
     {
         QPushButton *menuBtn=new QPushButton(":/res/BoardNode.png");
         menuBtn->setFixedSize(100,100);
@@ -99,9 +99,10 @@ chooselevelscene::chooselevelscene(QWidget *parent) : QMainWindow(parent)
            play->setGeometry(this->geometry());
            play->show();
 
-           connect(play,&GameScene::chooseSceneBack,[=](){
+           connect(play, &GameScene::chooseSceneBack,[=](){
               this->setGeometry(play->geometry());
               this->show();
+              play->close();
               delete play;
               play =NULL;
            });

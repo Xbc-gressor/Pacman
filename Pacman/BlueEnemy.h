@@ -1,9 +1,9 @@
 #ifndef BLUEENEMY_H
 #define BLUEENEMY_H
 
-#include "BaseObject.h"
+#include "Enemy.h"
 
-class BlueEnemy : public BaseObject
+class BlueEnemy : public Enemy
 {
 public:
     BlueEnemy();

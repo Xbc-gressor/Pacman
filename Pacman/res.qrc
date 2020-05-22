@@ -15,5 +15,7 @@
         <file>res/rule.txt</file>
         <file>res/sucessIMG.jpg</file>
         <file>res/TapButtonSound.wav</file>
+        <file>res/greystone.png</file>
+        <file>res/SuccessImg.png</file>
     </qresource>
 </RCC>

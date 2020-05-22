@@ -1,9 +1,9 @@
 #ifndef YELLOWENEMY_H
 #define YELLOWENEMY_H
 
-#include "BaseObject.h"
+#include "Enemy.h"
 
-class YellowEnemy : public BaseObject
+class YellowEnemy : public Enemy
 {
 public:
     YellowEnemy();

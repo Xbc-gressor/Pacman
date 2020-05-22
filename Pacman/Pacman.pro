@@ -18,27 +18,25 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     ChooseLevelScene.cpp \
     BaseObject.cpp\
-    BlueEnemy.cpp \
+    Enemy.cpp \
+    GMap.cpp \
     GameRule.cpp \
     GameScene.cpp \
     MyPushButton.cpp \
     PacmanPlayer.cpp \
-    RedEnemy.cpp \
-    YellowEnemy.cpp \
     main.cpp \
     StartScene.cpp
 
 HEADERS += \
     ChooseLevelScene.h \
-    BlueEnemy.h \
+    Enemy.h \
+    GMap.h \
     GameScene.h \
     GameRule.h \
     MyPushButton.h \
     PacmanPlayer.h \
-    RedEnemy.h \
     StartScene.h\
     BaseObject.h \
-    YellowEnemy.h \
     config.h
 
 FORMS += \
